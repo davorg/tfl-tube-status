@@ -1,7 +1,9 @@
 use Module::Build;
 my $build = Module::Build->new(
-	module_name => 'TFL::Tube::Updates',
+	module_name => 'TFL::Tube::Status',
 	dist_version => '0.1',
+        dist_author  => 'Dave Cross <dave@mag-sol.com>',
+        dist_abstract => 'Fill me in soon',
 	license => 'perl',
 	requires => {
 		perl		      => '5.6.0',
